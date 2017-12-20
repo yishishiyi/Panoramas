@@ -1,5 +1,5 @@
-imNum=2;  %Suppose the images are named squentailly from left to right
-imgNameBase='results/ec8_';
+imNum=3;  %Suppose the images are named squentailly from left to right
+imgNameBase='inputs/ec8_';
 imgName=cell(imNum,1);
 
 for i =1 :imNum
@@ -30,6 +30,6 @@ end
 
 figure();
 imshow(panoImg);
-imwrite(panoImg, 'results/ec8_pan.jpg','jpg');
+imwrite(panoImg, 'outputs/ec8_pan.jpg','jpg');
 
     
